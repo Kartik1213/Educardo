@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<body>
+<h1>Bamboo Art</h1>
+Lavanya is installing a piece of bamboo art for the Siruseri Biennale. Her installation will consist
+of a sequence of bamboo shoots of increasing lengths, abstractly representing the ascent of culture
+in the world. She also wants to arrange the bamboo shoots so that the difference in length between
+adjacent bamboo shoots remains the same, to maintain symmetry.<br>
+She has with her a set of bamboo shoots. She will only use the bamboo shoots as they are,
+because cutting bamboo goes against her principles. Your task is to determine the maximum
+number of bamboo shoots she can use from this set as part of her installation.<br>
+Suppose she had a collection of 7 bamboo shoots of lengths 15, 8, 10, 20, 17, 13, 5. From these, she
+could pick bamboo shoots of lengths 13, 15 and 17 to form an installation of size 3. Alternatively,
+she could pick bamboo shoots of lengths 5, 10, 15 and 20 to form an installation of size 4. You can
+check that she cannot form an installation of size 5 or higher using this collection.<br>
+In this task, you will be given a number N, describing the number of bamboo shoots in Lavanya’s
+collection and the lengths of the N bamboo shoots. You may assume that no two bamboo shoots
+in the collection have the same length.<br>
+Your task is to output the size of the largest installation that Lavanya can create out of these
+bamboo shoots.<br>
+<h3>Input format</h3>
+There is only one line, which contains N + 1 space separated integers.<br>
+The first integer is N, giving the number of bamboo shoots.<br>
+That is followed by N distinct, non-negative integers, giving the lengths of the N bamboo
+shoots.<br>
+<h3>Output format</h3>
+One line containing a single integer giving the size of the largest installation that Lavanya can
+create.<br>
+<h3>Test data</h3>
+You may assume that the lengths of the bamboo shoots lie in the range 0 to 105
+, both inclusive.<br>
+You may also assume that all bamboo shoots have distinct lengths.
+Subtask 1 (40 Marks)<br>
+You may assume that 1 &le; N &le; 400, where N is the number of bamboo shoots.
+Subtask 2 (60 Marks)<br>
+You may assume that 1 &le; N &le; 2500, where N is the number of bamboo shoots.<br>
+<h3>Sample input</h3>
+7 15 8 10 20 17 13 5<br>
+5<br>
+<h3>Sample output/<h3>
+4
+<h3>Explanation</h3>
+N = 7, and the bamboo shoots have lengths {15, 8, 10, 20, 17, 13, 5}. This is the same example
+explained above. So the answer is 4.
+<h3>Limits</h3>
+Time limit : 1s
+<form action="problemdone.php" method="POST">
+	<input name="pdone" type="text" value="H4" disabled style="display:none;">
+	<input type="submit" value="Mark as done">
+</form>
+
+</body>
+</html>

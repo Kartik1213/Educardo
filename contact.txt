@@ -1,0 +1,16 @@
+NAME 		Shiv Ram sir
+EMAIL 		varun.c17@iiits.in
+MESSAGE 		Nice website
+ PHONE NO 		12354647891
+ ADDRESS 		231
+SUBJECT 		12354647891
+
+
+NAME 		Varun Chhangani
+EMAIL 		varunchhangani@gmail.com
+MESSAGE 		Nice Website
+ PHONE NO 		9229177749
+ ADDRESS 		
+SUBJECT 		9229177749
+
+

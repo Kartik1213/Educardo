@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<body>
+<h1>Variation</h1>
+
+We say that two integers x and y have a variation of at least K, if |x − y| &ge; K (the absolute value
+of their difference is at least K). Given a sequence of N integers a1, a2, . . . , aN and K, the total
+variation count is the number of pairs of elements in the sequence with variation at least K, i.e. it
+is the size of the set of pairs<br>
+
+<h3><center>{(i, j) | 1 &le; i &lt; j &le; N and |a<sub>i</sub> − a<sub>j</sub> | &ge; K}</center><br></h3>
+
+For example if K = 1 and the sequence is 3, 2, 4 the answer is 3. If K = 1 and the sequence is
+3, 1, 3 then the answer is 2.
+Your task is to write a program that takes a sequence and the value K as input and computes
+the total variation count.<br>
+
+<h3>Input format<br></h3>
+The first line contains two positive integers N and K, separated by a space.<br>
+This is followed by a line containing N integers separated by space giving the values of the
+sequence.<br><br>
+
+<h3>Output format<br></h3>
+A single integer in a single line giving the total variation count.<br><br>
+
+<h3>Test data<br></h3>
+You may assume that all integers in the input are in the range 0 to 108
+inclusive.<br><br>
+
+<h3>Subtask 1 (40 Marks)</h3> 1 &le; N &le; 4000, 1 &le; K &le; 108<br>
+
+<h3>Subtask 2 (60 Marks)</h3> 1 &le; N &le; 65000, 1 &le; K &le; 108<br>
+</h3>.
+
+<h3>Sample input</h3>
+3 1<br>
+3 1 3<br><br>
+
+<h3>Sample output</h3>
+2<br>
+<br>
+<h3>Limits</h3>
+Memory limit : 256MB<br>
+Time limit : 2s<br>
+
+
+</body>
+</html>

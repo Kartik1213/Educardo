@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<body>
+<h1>Fence</h1>
+
+You have a rectangular farm which consists of R*C fields arranged in a grid consisting of R rows and C columns.
+Each field is a 1 x 1 square. Some of these fields have been planted with potatoes while the others
+lie uncultivated.
+We say that two fields are adjacent if one lies immediately to the left or to the right or above or below the other.
+(Note that two fields which touch each other at just one corner are not considered
+adja-cent).
+<br>
+If two fields are adjacent then we say we may walk from one to the other.A patch is a collection 
+of all the cultivated fields such that one may walk from any field in the patch to any other field in the same
+patch only via cultivated fields. There are no uncultivated fields in a patch. That is, all the cultivated fields in
+the farm can be partitioned into patches, and you can walk from one cultivated field to another cultivated
+field, if and only if, both of them belong to the same patch.
+<br>
+To prevent wild animals from destroying the cultivated fields you plan to 
+enclose each patch within fences constructed all along the boundaries of the patch.
+Wild animals infest the uncultivated fields, and also beyond the R*C farm. 
+We need to ensure that the fences protect all the boundaries of each patch, so that the wild animals cannot get to any cultivated field without crossing a fence. Clearly, the length of the fence needed for each patch may dif
+fer. If your patch consists of just a single field then the fence will be of length 4. If it consists of two adjacent fields then the fence will be length 6.
+Your task is to output the maximum length of fence needed to enclose a patch, among all the patches in your
+farm. 
+<br><br>
+The input to your program will be a description of the positions of all the cultivated fields in your farm.
+(X,Y) refers to the field on the X<sup>th</sup> row and Y<sup>th</sup> column. So, (1,1) refers to the top-left corner field, and (R,C) refers to the bottom-right corner.
+<br>
+<br>
+Input
+The first line contains three space separated integers, R, C and N, which are the number of rows,number of columns and the number of cultivated fields, respectively.The next N lines contain two space separated integers, X<sub>i</sub> and Y<sub>i</sub>, which signify that (X<sub>i</sub>, Y<sub>i</sub>) is a cultivated field.
+<br><br>
+Output
+<br>
+A single integer which is the maximum length of fence needed for any patch.
+<br><br>
+Constraints
+<br>
+For all test cases you may assume that:
+0 &le; Number of cultivated fields = N &le; 100000
+<br>
+1 &le; X<br>
+i &le; R<br>
+1 &le; Y<br>
+i &le; C<br>
+<br>
+Subtask 1: For 15% of the score,
+1 &le; R,C &le; 20
+<br>
+Subtask 2: For further 45% of the score,
+1 &le; R,C &le; 2500
+<br>
+Subtask 3
+: For 40% of the score,
+<br>
+1 &le; R,C &le; 1000000
+<br>
+Example
+<br>
+Input:
+<br>
+4 4 9
+<br>
+1 4
+<br>
+2 1
+<br>
+2 2
+<br>
+2 3
+<br>
+4 3
+<br>
+4 1
+<br>
+4 2
+<br>
+3 1
+<br>
+3 3
+<br>
+<br>
+Output:
+<br>
+16
+<br>
+<br>
+Explanation
+<br>
+The input corresponds to the figure
+<br>
+. . . x
+<br>
+x x x .
+<br>
+x . x .
+<br>
+x x x .
+<br>
+'x' corresponds to a cultivated field, and '.' corresponds to an uncultivated field.
+There are two patches. One patch, which includes only the (1,4) field needs a fence of length 4. The other
+patch, which has 8 fields in it, needs fence of length 16. A length of 12 to cover its outer boundary
+, and length 4 to cover its inner boundary. 
+<br>
+Maximum(4,16) = 16. Hence, the answer is 16.
+<br><br><br><br>
+
+<body>
+</html>

@@ -1,0 +1,10 @@
+   			#srv {background-color:rgb(24,24,24); height: 960px;width: 100%;color: white ;  }
+
+   			#img1{position: absolute; top:570px; left: 150px;}
+   			#img2{position: absolute; top:570px; left: 500px;}
+   			#img3{position: absolute; top:570px; left: 850px;}
+
+   			#t1{position: absolute; top:800px; left: 150px; background-color: white; height: 200px;width:301px;text-align:center}
+   			#t2{position: absolute; top:800px; left: 500px;background-color: white; height: 200px;width:301px ;text-align:center}
+   			#t3{position: absolute; top:800px; left: 850px;background-color: white; height: 200px;width:301px ;text-align:center;}
+

@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+<body>
+
+<h1>Fusing Weapons</h1>
+
+Chef has recently started becoming a fan of computer games. He is currently playing a game in which he controls a warrior who is fighting evil monsters.
+Before the start of each stage, N weapons appear on the screen in circular order. Each weapon has an integer associated with it, which represents its level. The chef can choose two adjacent weapons of the same level and fuse them into a single weapon of level A+1, where A is the level of the weapons before fusing. Both the old weapons will disappear and the new weapon will be placed in the place of the old weapons, shrinking the circle.
+<br>
+Chef can fuse as many times as he wants, and in each stage, he wants to make a weapon with as high a level as possible. Each stage is independent of other stages.
+Please help Chef by figuring out the maximum level of a weapon that he can get in each stage.
+
+<br><br>
+
+
+<h3>Input</h3><br>
+The first line contains integer T, denoting the number of stages. The description of each stage follows.<br>
+
+The first line of each stage's description contains an integer N, denoting the number of weapons.<br>
+
+The second line contains N space-separated integers: L1, L2, ..., LN, where Li is the level of the i-th weapon. The i-th and (i+1)-th weapons are adjacent for all i which satisfy 1 %le; i &lt; N. Additionally, the first and N-th weapons are also adjacent.
+<br><br>
+<h3>Output</h3><br>
+For each stage, output a single integer in new line, which should be the maximum level of a weapon that Chef can get.<br><br>
+
+<h3>Constraints</h3><br>
+1 ≤ T ≤ 100<br>
+1 ≤ N ≤ 200,000<br>
+1 ≤ sum of N in all stages ≤ 200,000<br>
+1 ≤ Li ≤ 200,000<br>
+ 
+
+<h3>Example</h3>
+<h3>Input:</h3>
+2<br>
+4<br>
+3 3 1 4<br>
+6<br>
+2 3 3 3 1 1
+<br><br>
+
+<h3>Output:</h3><br>
+5<br>
+5<br><br><br><br>
+
+
+</body>
+</html>
+

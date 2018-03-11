@@ -1,0 +1,37 @@
+.divcol {background-color: black}
+		.but {cursor: pointer;font-size: 13px;color:#181818;text-align: right}
+		.but_curr {font-size: 20px;color:#181818;text-align: right}
+		#locator { position:relative; visibility: visible; top: -500px;color:red;width: 70%;background-color: white;text-align:center;}
+		#location1 { position: absolute; visibility: visible; left: 0px; top: 0px;background-color: white}
+		#location2 { position: absolute; visibility: visible; left: 0px; top: 300px;background-color: white}
+		#location3 { position: absolute; visibility: visible; left: 8px; top: 1179px; width: 1264px; height: 400px;background-color: blue}
+		#last { position: absolute; visibility: visible; left: 8px; width:100%; background-color:#ffffff;}
+		.font_3 {font: normal normal normal 88px avenir-lt-w01_85-heavy1475544,sans-serif;color: #181818;}
+		.font_9 {font: normal normal normal 16px avenir-lt-w01_35-light1475496,sans-serif;color: #181818;}
+		.color_11 {color: #ffffff;}
+		.btn {
+   			border: none; /* Remove borders */
+    		color: white; /* Add a text color */
+    		box-shadow: 5px 5px 10px #888888;
+    		width:auto;
+    		padding: 14px 28px; /* Add some padding */
+    		cursor: pointer; /* Add a pointer cursor on mouse-over */
+    		border-radius: 20px;
+		}
+		.login {background-color: #4CAF50;} /* Green */
+
+		
+		.sign {background-color: #2196F3;} /* Blue */
+		
+		.orgbtn{background-color:#ff8533;}/*orange*/
+		
+		.redbtn {background-color: #f44336;}
+
+		
+		.learn {background-color: white;} /* Green */
+		.continp {margin-right:140px;border-color:white;background-color:rgb(24,24,24);height:30px;color:white}
+		#f1 {margin-top:20%;margin-right:18.51%;}
+		#f2 {background-color:rgb(24,24,24);margin-top:10px;margin-left:0px;height:550px}
+		#f3 {font-weight:lighter;color:white;margin-left:10%;font-family:'Arial header';margin-top:5%}
+
+

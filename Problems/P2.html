@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<body>
+<h1>Training</h1>
+Ash and his Pokemon Pikachu are going on a journey. Ash has planned his route for the journey so that it passes through N cities, numbered 1, 2, ..., N, and in this order.
+<br>
+When they set out, Pikachu has an initial strength of S<sub>in</sub> as well as an experience value (XV) of 0. As theytravel they may increase his strength and experience value in a manner to be described below. In each city, Ash can choose either to train Pikachu or let Pikachu battle the Gym-leader (but not both). The Gym-leader in i<sup>th</sup> city has experience E[i]. If Pikachu enters a city i with strength S and decides to train, then this increases his strength by the cube of the sum of the digits in his current strength. For example, if he entered a city with a strength of 12, then training will increase his strength to 12 + (1+2)3 = 39. On the other hand, if he enters city i with strength S and battles the Gym-leader, then this increases his experience value XV by S*E[i]. Ash wants your help to find out the maximum XV that Pikachu can attain at the end of his journey.
+<br><br>
+Input
+<br>
+The first line contains two space separated integers, N and S<sub>in</sub>, which are the number of cities, and the initial strength, respectively.The second line contains N space separated integers, which correspond to E[1], E[2],..., E[N].
+<br><br>
+Output
+<br>
+A single integer which is the maximum XV that Pikachu can attain.
+<br>
+<br>
+Constraints
+<br>
+For all test cases you may assume that:
+<br>
+1 &le; N &le; 5000<br>
+0 &le; S<sub>in</sub> &le; 109<br>
+0 &le; E[i] &le; 104
+<br>
+Subtask 1
+: For 10% of the score, N &le; 20 and S<sub>in</sub> = 1<br>
+Subtask 2
+: For further 40% of the score,E[i] = k for all i i.e. E[i] is some constant 
+k
+, for all 
+i
+<br>
+Subtask 3
+: For further 50% of the score,
+<br>
+No further constraints.
+<br>
+<br>
+Example
+<br>
+Input 1:
+<br>
+2 12
+<br>
+5 10
+<br>
+<br>
+Output 1:
+<br>
+390
+<br>
+Explanation 1
+<br>
+Suppose Pikachu trains in the first city
+, his strength will increase to 39, because as explained above, 12 +
+(1+2)
+3
+ = 39. If he battles in the first city
+, his XV will increase by (12*5) = 60.
+If Pikachu trains in the first city
+, and then battles in the second city
+, his XV will increase by 39*10 = 390. So,
+the final XV will be 0+390 = 390. Y
+ou can check that you cannot do better than this. Hence the answer is
+390.
+<br>
+<br>
+Input 2:
+<br>
+4 1
+<br>
+100 1 6 2
+<br>
+Output 2:
+<br>
+120
+<br>
+Explanation 2
+<br>
+Pikachu battles in the first city
+, trains in the second and third, and then battles in the fourth city
+. So his
+strength going into each of the four cities is (1, 1, 2, 10). And so he gains 1*100 XV from the first city and
+10*2 XV from the fourth city
+. This gets him a total of 120 XV
+, and you can verify that nothing better can be
+done.
+<br><br><br><br>
+
+</body>
+</html>
